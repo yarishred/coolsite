@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+/* Formato de etiquetas de texto */
+h1{text-align: center;}
+h2{font-size: 20px;}
+span{color: tomato;}
+p{font-size: 12px;}
+
+#navegacion__ppal{
+width: 100%;
+height: 60px;
+background: tomato;
+float: left;
+}
+
+.logo{
+float: left;
+}
+
+#navegacion__ppal h1{
+color: #f3f3f3;
+text-shadow: 1px 1px 0.5px #333;
+float: left;
+font-size: 18px;
+padding: 20px;
+}
+
+#navegacion__ppal ul{
+float: right;
+}
+
+#navegacion__ppal ul li{
+list-style: none;
+float: left;
+}
+
+#navegacion__ppal ul li a{
+float: left;
+text-decoration: none;
+padding: 20px;
+color: #f3f3f3;
+font-size: 15px;
+font-weight: bold;
+text-shadow: 1px 1px 0.5px #333;
+}
+
+#navegacion__ppal ul li a:hover{
+background: orange;
+padding: 21px ;
+}
+
+
+.contenedor__ppal{
+width: 100%;
+height:400px;
+text-align: center;
+color: #f3f3f3;
+}
+
+.contenedor__ppal .contenedor__imagen{
+width: 100%;
+height: 100%;
+background: url('./imagenes/showcase1.jpg') no-repeat center center/cover;
+}
+
+.contenedor__texto{
+width: 100%;
+height: inherit;
+text-align: left;
+padding: 140px 80px;
+margin: auto;
+text-shadow: 1px 1px 0.5px black;
+}
+
+.contenedor__texto h1{
+font-size: 30px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.contenedor__texto p{
+font-weight: bold;
+}
+
+/* Botones */
+.contenedor__texto a{
+display: block;
+width: 150px;
+height: 40px;
+padding: 10px;
+text-align: center;
+background: tomato;
+color: #f3f3f3;
+font-size: 15px;
+font-weight: bold;
+text-shadow: 1px 1px 0.5px #333;
+text-decoration: none;
+}
+
+.contenedor__texto a:hover{
+background: orange;
+text-shadow: 1px 1px 0.5px #333;
+padding: 10px;
+}
+
+.contenedor__ppal__viajes{
+width: 100%;
+height: 800px;
+margin: auto;
+}
+
+.titulo__secundario{
+text-align: center;
+font-size: 35px;
+color: tomato;
+text-shadow: 1px 1px 2px black;
+padding: 40px;
+}
+
+.contenedor__ppal__viajes .contenedor__bloques{
+width: 90%;
+height: 600px;
+margin: auto;
+margin-top: 4px;
+}
+
+.bloque{
+width: 45%;
+height: 250px;
+float: left;
+margin: 20px  16px;
+margin-bottom: 30px;
+padding-top: 170px;
+text-align: center;
+background: turquoise;
+color: #f3f3f3;
+text-shadow: 1px 1px black;
+}
+
+.bloque h2, .bloque p{
+background: tomato;
+padding: 8px ;
+border: 1px solid tomato;
+}
+
+.bloque1{
+background: url('./imagenes/asia.jpg') no-repeat center center/cover;
+}
+.bloque2{
+background: url('./imagenes/africa.jpg') no-repeat center center/cover;
+}
+.bloque3{
+background: url('./imagenes/suramerica.jpg') no-repeat center center/cover;
+}
+.bloque4{
+background: url('./imagenes/europa.jpg') no-repeat center center/cover;
+}
+
+.bloque:hover{
+background: tomato;
+transition: all 0.2s;
+transform: scale(1.15);
+padding-top: 85px;
+}
+
+.contenedor__descripcion{
+width: 100%;
+height: 380px;
+background: #333;
+color: #f3f3f3;
+text-align: center;
+}
+
+.contenedor__descripcion .titulo__secundario{
+color: #f3f3f3;
+}
+
+.contenedor__descripcion p{
+margin-top: -35px;
+} 
+
+.descripciones{
+width: 90%;
+height: 100px;
+margin: auto;
+margin-top: 15px;
+}
+
+.descripciones .descripcion{
+width: 30%;
+height: 50px;
+float: left;
+margin: 9px;
+padding: 25px 15px;
+}
+
+.descripcion p{
+font-size: 15px;
+margin-top: 20px;
+text-shadow: 1px 1px 1px black;
+}
+
+
+.descripcion:hover > * {
+color: orange;
+}
+
+.contenedor__redes__sociales{
+width: 100%;
+height: 200px;
+background: tomato;
+}
+
+.contenedor__redes__sociales h2{
+color: #f3f3f3;
+}
+
+.contenedor__redes__sociales .redes{
+width: 100%;
+font-size: 40px;
+text-align: center;
+}
+
+.redes i{
+padding: 20px;
+font-size: 50px;
+color: #f3f3f3;
+text-shadow: 1px 1px 1px black;
+margin-top: -30px;
+}
+
+#footer{
+width: 100%;
+height: 80px;
+background: orange;
+}
+
+#footer p{
+text-align: center;
+padding: 30px;
+font-size: 15px;
+font-weight: bold;
+}
+
+.contenedor__form{
+    width: 100%;
+    padding: 40px;
+}
+
+.contenedor__form h2{
+    margin-top: 40px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#main__form input, #main__form textarea{
+    display: block;
+    margin:10px 0;
+    width: 90%;
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+#main__form textarea{
+    height: 120px;
+    color: #777;
+}
+
+#main__form label{
+    color: tomato;
+    font-weight: bold;
+}
+
+#main__form input:focus, 
+#main__form input:hover,
+#main__form textarea:focus,
+#main__form textarea:hover{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid tomato;
+}
+
+.btn{
+    display: block;
+    outline: none;
+    border: none;
+    background: tomato;
+    padding: 11px;
+    margin: 25px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #f3f3f3;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover{
+    background: none;
+    color: tomato;
+    border: 1px solid tomato;
+    padding: 10px;
+
+}
